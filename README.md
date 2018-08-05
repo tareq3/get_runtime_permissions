@@ -2,12 +2,16 @@
 Its a library for getting permissions in android on Runtime
 
  ##Need a member Variable like:
- ```Context mContext;
+ ```
+ Context mContext;
+ 
  ```
  
   ##Initialize mContext in Oncreate() like: 
   
-   ```mContext=this;
+   ```
+   mContext=this;
+   
    ```
    
 
