@@ -26,8 +26,11 @@ Its a library for getting permissions in android on Runtime
    ```
    
 
-  ### Declare a member variable like: GetRuntimePermission mGetRuntimePermission;
-
+  ### Declare a member variable like:
+  ```
+  GetRuntimePermission mGetRuntimePermission;
+  ```
+  
   ## TODO: 4/14/2018    ///Copy the following lines in onclick() or any method for using this class 
 
 ```
