@@ -1,11 +1,14 @@
 # get_runtime_permissions
 Its a library for getting permissions in android on Runtime
 
- //*Need a member Variable like:
- ```Context mContext;```
+ ##Need a member Variable like:
+ ```Context mContext;
+ ```
  
-   ##Initialize mContext in Oncreate() like: 
-   ```mContext=this;```
+  ##Initialize mContext in Oncreate() like: 
+  
+   ```mContext=this;
+   ```
    
 
   ### Declare a member variable like: GetRuntimePermission mGetRuntimePermission;
@@ -33,4 +36,5 @@ Its a library for getting permissions in android on Runtime
 
 
      }
-      ```
+      
+  ```
