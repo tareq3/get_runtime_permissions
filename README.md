@@ -1,5 +1,16 @@
 # get_runtime_permissions
 Its a library for getting permissions in android on Runtime
+# Dependencies:
+
+### needed repository:
+```
+
+        maven { url 'https://jitpack.io' }
+```
+### needed dependencies:
+```
+ implementation 'com.github.tareq3:get_runtime_permissions:1.1'
+```
 
  ## Need a member Variable like:
  ```
