@@ -38,7 +38,10 @@ Its a library for getting permissions in android on Runtime
                     @Override
                     public void setTaskCompleteAction() {
                       //Do the task you want to do right there
-                      //write down your task
+                      //just write down your task Once
+                      //following lines will be played if user accept the permission and after accepting everytime 
+                      ///So don't need to write the same code again after the semicolon
+                      
                     }
                 };
  ```
