@@ -56,3 +56,14 @@ Its a library for getting permissions in android on Runtime
      }
       
   ```
+  
+  ### TODO: Check permission is Added in Manifest or not
+  
+  ```
+   if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED) {
+            Toast.makeText(this, "need_location_permission_message", Toast.LENGTH_LONG).show();
+            return;
+        }
+  
+  ```
